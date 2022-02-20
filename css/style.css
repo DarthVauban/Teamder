@@ -70,6 +70,7 @@
     background: transparent;
     margin-left: 5px;
     color: #BDBDBD;
+    cursor: pointer;
 }
 
 .checkbox {
@@ -87,6 +88,7 @@
     border: 1px solid #373737;
     position: relative;
     border-radius: 50%;
+    cursor: pointer;
 }
 .fake::before {
     content: "";
@@ -108,6 +110,7 @@
 }
 .forgot-pass {
     color: #BDBDBD;
+    cursor: pointer;
 }
 
 .login-button {
@@ -118,6 +121,7 @@
     font-size: 30px;
     padding: 20px;
     margin-top: 40px;
+    cursor: pointer;
 }
 .sign-up-text {
     margin: 0 auto;
@@ -131,4 +135,5 @@
     color: #FFB800;
     text-decoration-line: underline;
     text-align: center;
+    cursor: pointer;
 }
