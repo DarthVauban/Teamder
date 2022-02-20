@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+
+.form-body {
+    display: flex;
+    width: 100%;
+}
+
+.bg-img {
+    width: 50%;
+    height: 100vh;
+}
+
+.cover-img {
+    width: 100%;
+    height: 100%;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
+    width: 100%;
+}
+.login-form {
+    margin-top: 50px;
+    max-width: 430px;
+    width: 100%;
+}
+
+.form-title {
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid #939393;
+    width: 100%;
+    color: #F2F2F2;
+    outline: none;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+::placeholder {
+    color: #F2F2F2;
+    font-size: 16px;
+}
+.password {
+    display: flex;
+    max-width: 430px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.text {
+    color: white;
+    background: transparent;
+    margin-left: 5px;
+    color: #BDBDBD;
+    cursor: pointer;
+}
+
+.checkbox {
+    display: none;
+}
+.remember {
+    display: flex;
+    align-items: center;
+}
+.fake {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #F7FAFC;
+    border: 1px solid #373737;
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.fake::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #FFB800;
+    opacity: 0;
+    border-radius: 50%;
+    transition: 0.2s;
+
+}
+.checkbox:checked + .fake::before {
+    opacity: 1;
+}
+.forgot-pass {
+    color: #BDBDBD;
+    cursor: pointer;
+}
+
+.login-button {
+    background: #FFB800;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.sign-up-text {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.not-acc {
+    color: #BDBDBD;
+    font-size: 18px;
+}
+.sign-up {
+    color: #FFB800;
+    text-decoration-line: underline;
+    text-align: center;
+    cursor: pointer;
+}
