@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="form-body">
@@ -18,22 +19,127 @@
         <div class="form-container">
             <div class="form-content">
                 <img src="./img/big-logo.svg" alt="" class="big-logo">
-                <form action="" class="login-form">
-                    <p class="form-title">Welcome, login to your account! </p>
-                    <input type="text" class="form-input" placeholder="Login">
-                    <input type="text" class="form-input" placeholder="Password">
-                </form>
-                <div class="password">
-                    <label class="remember">
-                        <input type="checkbox" class="checkbox">
-                        <span class="fake"></span>
-                        <span class="text">Remember me</span>
-                    </label>
-                    <p class="forgot-pass">Forgot password?</p>
+                <div class="form-block">
+                    <form action="" class="login-form">
+                        <p class="form-title">Welcome, login to your account! </p>
+                        <input type="text" class="form-input" placeholder="Login">
+                        <input type="text" class="form-input" placeholder="Password">
+                    </form>
+                    <div class="password">
+                        <label class="remember">
+                            <input type="checkbox" class="checkbox">
+                            <span class="fake"></span>
+                            <span class="text">Remember me</span>
+                        </label>
+                        <p class="forgot-pass">Forgot password?</p>
+                    </div>
+                    <button class="login-button">Login now</button>
+                    <div class="sign-up-text">
+                        <p class="not-acc">Don’t have an account yet? <span class="sign-up">Sign up!</span></p>
+                    </div>
                 </div>
-                <button class="login-button">Login now</button>
-                <div class="sign-up-text">
-                    <p class="not-acc">Don’t have an account yet? <span class="sign-up">Sign up!</span></p>
+                <div class="step-form">
+                    <div class="steps">
+                        <div class="step-item step-active">
+                            <span class="number">1</span>
+                        </div>
+                        <div class="step-item">
+                            <span class="number">2</span>
+                        </div>
+                        <div class="step-item">
+                            <span class="number">3</span>
+                        </div>
+                    </div>
+                    <h5 class="reg-title">Basic information</h5>
+                    <form action="" class="reg-form">
+                        <div class="step-one form-step form-step-active">
+                            <input type="text" class="form-input" placeholder="Login">
+                            <input type="email" class="form-input" placeholder="E-mail">
+                            <div class="flex-row flex-align__space-between">
+                                <input type="text" class="form-input row-input" placeholder="Name">
+                                <input type="text" class="form-input row-input" placeholder="Surname">
+                            </div>
+                            <input type="password" class="form-input" placeholder="Password">
+                            <div class="flex-row flex-align__space-between">
+                                <input type="text" class="form-input row-input input-city" placeholder="City">
+                                <input type="text" class="form-input row-input input-age" placeholder="Age">
+                            </div>
+                        </div>
+                        <div class="step-two form-step">
+                            <textarea rows="5" type="text" class="form-input" placeholder="Bio"></textarea>
+                            <input type="text" class="form-input" placeholder="Social Media URL #1">
+                            <input type="text" class="form-input" placeholder="Social Media URL #2">
+                            <input type="text" class="form-input" placeholder="Social Media URL #3">
+                        </div>
+                        <div class="step-three form-step">
+                            <div class="checkbox-container">
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Sport</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Programming</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Swimming</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Dance</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Bowling</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Travelling</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Singing</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Music</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Bowling</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Programming</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Sport</span>
+                                </label>
+                                <label class="interests">
+                                    <input type="checkbox" class="checkbox-interests">
+                                    <span class="fake-check-box"></span>
+                                    <span class="checkbox-text_interests">Travelling</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button class="reg-button">CONTINUE</button>
+                        <div class="sign-up-text">
+                            <p class="not-acc">You already have an account? <span class="sign-in">Log in!</span></p>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
