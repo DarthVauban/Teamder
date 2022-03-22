@@ -338,3 +338,12 @@
 .step-form {
     display: none;
 }
+
+@media (max-width: 990px) {
+    .bg-img {
+        display: none;
+    }
+    .form-body {
+        justify-content: center;
+    }
+}
