@@ -1,4 +1,5 @@
 @import "login.css";
+@import "feed.css";
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
