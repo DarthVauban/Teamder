@@ -3,8 +3,8 @@
     max-width: 1230px;
     width: 100%;
     justify-content: space-around;
-    align-items: center;
     height: 100vh;
+    padding-top: 25px;
 }
 .side-menu {
     display: flex;
@@ -18,9 +18,6 @@
 }
 .menu-item{
     display: flex;
-}
-.smal-logo{
-    margin-top: 25px;
 }
 .item-icon {
     margin-right: 20px;
@@ -42,6 +39,7 @@
     border: none;
     border-radius: 5px;
     margin-top: 50px;
+    cursor: pointer;
 }
 .log-out-btn {
     display: flex;
@@ -54,6 +52,8 @@
     background: #FFB800;
     border: none;
     border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 .log-out-icon {
     background-color: transparent;
