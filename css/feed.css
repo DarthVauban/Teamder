@@ -2,14 +2,15 @@
     display: flex;
     max-width: 1230px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100vh;
-    padding-top: 25px;
+    margin: 0 auto;
 }
 .side-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 25px;
 }
 .menu-items {
     margin-top: 50px;
@@ -58,4 +59,204 @@
 .log-out-icon {
     background-color: transparent;
     margin-right: 10px;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    border-left: solid 1px #3A444C;
+    border-right: solid 1px #3A444C;
+    overflow-y: scroll;
+}
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+.user-greating {
+    font-size: 30px;
+    color: #fff;
+}
+.events {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.content-tabs {
+   border-bottom: solid 1px #3A444C;
+}
+.tabs-container {
+    display: flex;
+    max-width: 200px;
+    width: 100%;
+    justify-content: space-around;
+}
+.tab-item {
+    width: 50%;
+}
+.tab {
+    font-size: 15px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+}
+.active {
+    border-bottom: solid 1px #FFB800;
+}
+.active .tab{
+    color: #FFB800;
+}
+.post-container {
+    display: flex;
+}
+.left-side {
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    width: 100%;
+    height: 100%;
+}
+.post-container {
+    border-bottom: solid 1px #3A444C;
+    padding: 40px 0px;
+}
+.user-photo {
+    border-radius: 50%;
+    width: 50px;
+}
+.user-name {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+.even-details {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.event-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+.event-item {
+    display: flex;
+}
+.detail-icon {
+    margin-right: 10px;
+}
+.detail-text {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+.post-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.interest {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+.interest-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+}
+.footer-text {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 10px;
+}
+.post-footer-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.post-btn {
+    color: #000;
+    background: #FFB800;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+.checkbox-container::-webkit-scrollbar {
+    width: 15px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #424242;
+}
+
+/* ползунок скроллбара */
+.checkbox-container::-webkit-scrollbar-thumb {
+    background-color: #BFBFBF;
+    border-radius: 9em;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 25px;
+}
+.search-teamder {
+    border: none;
+    border-bottom: solid 1px #939393;
+    padding: 10px 0px;
+    width: 100%;
+    color: #fff;
+    outline: none;
+}
+::placeholder {
+    font-size: 16px;
+    color: #F2F2F2;
+}
+.hashtag-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #939393;
+}
+.hashtag-header {
+    border-bottom: solid 1px #939393;
+}
+.hashtag-header-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 14px 9px;
+}
+.hashtag-item {
+    padding: 14px 14px;
+    cursor: pointer;
+    border-bottom: solid 1px #939393;
+}
+.hashtag-item-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+.hashtag-info {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+}
+.show-more {
+    padding: 14px 14px;
+    cursor: pointer;
+}
+.show-more-title {
+    color: #FFB800;
+    font-size: 16px;
+    margin: 0;
 }
