@@ -63,7 +63,7 @@
 .content-container {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 610px;
     width: 100%;
     border-left: solid 1px #3A444C;
     border-right: solid 1px #3A444C;
@@ -212,7 +212,7 @@
 .search-container {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 350px;
     width: 100%;
     margin-top: 25px;
 }
