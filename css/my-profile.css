@@ -1,9 +1,9 @@
-.feed-container {
+.feed-container__profile {
     display: flex;
     max-width: 1230px;
     width: 100%;
     justify-content: space-between;
-    height: 116vh;
+    height: 120vh;
     margin: 0 auto;
 }
 .side-menu {
