@@ -73,6 +73,12 @@
     justify-content: space-between;
     padding: 0px 25px;
 }
+.back {
+    display: flex;
+}
+.bagck-icon {
+    margin-right: 21px;
+}
 .user-greating {
     font-size: 30px;
     color: #fff;

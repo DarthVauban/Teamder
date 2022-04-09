@@ -3,7 +3,7 @@
     max-width: 1230px;
     width: 100%;
     justify-content: space-between;
-    height: 100vh;
+    height: 116vh;
     margin: 0 auto;
 }
 .side-menu {
@@ -73,6 +73,12 @@
     justify-content: space-between;
     padding: 0px 25px;
 }
+.back {
+    display: flex;
+}
+.bagck-icon {
+    margin-right: 21px;
+}
 .user-greating {
     font-size: 30px;
     color: #fff;
@@ -87,7 +93,7 @@
 }
 .tabs-container {
     display: flex;
-    max-width: 250px;
+    max-width: 450px;
     width: 100%;
     justify-content: space-around;
     cursor: pointer;
@@ -196,17 +202,87 @@
     cursor: pointer;
     font-size: 14px;
 }
-.post-secton {
+.profile-container {
+    padding: 35px;
+}
+.profile-header {
+    display: flex;
+}
+.profile-photo {
+    margin-right: 34px;
+    width: 30%;
+}
+.user-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.tag {
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+
+}
+.about-text {
+    color: #fff;
+    font-size: 18px;
+}
+.profile-details {
+    display: flex;
+}
+.details-item {
+    display: flex;
+    margin-right: 29px;
+}
+.details-icon {
+    margin-right: 6px;
+}
+.details-text {
+    color: #fff;
+    margin: 0;
+}
+.interests-container {
+    padding: 32px 22px;
+}
+.interests-list {
+    border: solid 1px #1F1F1F;
+    padding: 16px 23px 0px 23px;
+    max-height: 300px;
+    height: 100%;
     overflow-y: scroll;
 }
-.post-secton::-webkit-scrollbar {
-    width: 8px; /* ширина для вертикального скролла */
-    height: 8px; /* высота для горизонтального скролла */
+.interest-item {
+    color: #fff;
+}
+.edit-button {
+    display: flex;
+    justify-content: end;
+    margin-top: 22px;
+}
+.interests-edit {
+    border: none;
+    background:#FFB800;
+    color: #000;
+    border-radius: 5px;
+    padding: 9px 39px;
+    cursor: pointer;
+}
+.interests-list::-webkit-scrollbar {
+    width: 17px; /* ширина для вертикального скролла */
+    height: 17px; /* высота для горизонтального скролла */
     background-color: #424242;
+    border-radius: 9em;
 }
 
 /* ползунок скроллбара */
-.post-secton::-webkit-scrollbar-thumb {
+.interests-list::-webkit-scrollbar-thumb {
     background-color: #BFBFBF;
     border-radius: 9em;
 }
